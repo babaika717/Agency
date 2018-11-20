@@ -24,7 +24,6 @@ ul {
 	list-style-type: none;
 }
 
-
 .logo{
 	background: url("../images/logo.png") no-repeat;
 	position: fixed;
@@ -572,6 +571,12 @@ transition: .5s;
 	flex-wrap: wrap;
 	padding: 0;
 	margin: 0;
+}
+
+.portfolio a {
+	flex: 33%;
+	position: relative;
+	z-index: 25;
 }
 
 .portfolio img {
